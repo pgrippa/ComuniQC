@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ComuniQC</string>
+
+    <string name="select_option">Selecione uma opção</string>
+    <string name="t_problems">Comunicação de problemas (Equipamentos e Instalações)</string>
+    <string name="t_compliments">Elogios / Reclamações</string>
+    <string name="t_acsug">Sugestões Acadêmicas</string>
+    <string name="t_campsug">Sugestões para o Campus</string>
+    <string name="t_others">Outros Assuntos</string>
+    <string name="b_send">Enviar</string>
+    <string name="b_exit">Sair</string>
+    <string name="t_typemsg">Digite a sua mensagem</string>
+    <string name="t_sentmsg">Mensagem Enviada!</string>
+    <string name="t_successmsg">Sua mensagem foi enviada. Em breve será respondida para o email informado.</string>
+    <string name="t_required">O campo é obrigatório</string>
+    <string name="t_invalid_email">Email inválido</string>
+    <string name="t_connerror">Erro de Conexão</string>
+    <string name="t_connerror_msg">Este aplicativo necessita de internet para funcionar. Por favor, verifique sua conexão.</string>
+</resources>
+

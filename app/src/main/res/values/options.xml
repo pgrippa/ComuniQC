@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="options_array">
+        <item>@string/select_option</item>
+        <item>@string/t_problems</item>
+        <item>@string/t_compliments</item>
+        <item>@string/t_acsug</item>
+        <item>@string/t_campsug</item>
+        <item>@string/t_others</item>
+    </string-array>
+</resources>
