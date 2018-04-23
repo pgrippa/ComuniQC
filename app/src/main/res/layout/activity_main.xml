@@ -53,33 +53,40 @@
         android:layout_height="wrap_content">
 
 
-        <CheckBox
-            android:id="@+id/cb_aluno"
+        <RadioGroup
+            android:id="@+id/rg_category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Aluno" />
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/cb_student"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Aluno" />
 
-        <CheckBox
-            android:id="@+id/cb_professor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Professor" />
+            <RadioButton
+                android:id="@+id/cb_professor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Professor" />
 
-        <CheckBox
-            android:id="@+id/cb_tae"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="TAE" />
+            <RadioButton
+                android:id="@+id/cb_tae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TAE" />
 
-        <CheckBox
-            android:id="@+id/cb_outro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Outro" />
+            <RadioButton
+                android:id="@+id/cb_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Outro" />
+        </RadioGroup>
     </LinearLayout>
 
 
@@ -92,9 +99,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:lines="4"
             android:hint="@string/t_typemsg"
-            android:inputType="textMultiLine"/>
+            android:inputType="textCapSentences|textMultiLine"
+            android:lines="4" />
 
     </LinearLayout>
 
