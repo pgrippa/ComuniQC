@@ -115,6 +115,7 @@
             android:id="@+id/b_exit"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
             android:text="@string/b_exit"
             android:onClick="exit"/>
 
@@ -122,6 +123,7 @@
             android:id="@+id/b_send"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
             android:text="@string/b_send"
             android:onClick="sendMessage"/>
 

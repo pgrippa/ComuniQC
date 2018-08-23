@@ -20,6 +20,7 @@
     <string name="t_sentmsg">Mensagem Enviada!</string>
     <string name="t_successmsg">Sua mensagem foi enviada. Em breve será respondida para o email informado.</string>
     <string name="t_required">O campo é obrigatório</string>
+    <string name="t_cat_required">Por favor, selecione uma categoria.</string>
     <string name="t_invalid_email">Email inválido</string>
     <string name="t_select_cat">Selecione uma categoria</string>
     <string name="t_connerror">Erro de Conexão</string>

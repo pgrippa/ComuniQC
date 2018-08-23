@@ -120,8 +120,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(!isValidCategory()){
-            student.setError(getString(R.string.t_select_cat));
-            category.requestFocus();
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+            builder.setMessage(R.string.t_cat_required)
+                    .setTitle(R.string.t_required);
+
+            AlertDialog dialog = builder.create();
+            dialog.show();
             return;
         }
 
